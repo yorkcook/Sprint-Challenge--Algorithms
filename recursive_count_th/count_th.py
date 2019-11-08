@@ -7,4 +7,10 @@ def count_th(word):
     
     # TBC
     
-    pass
+    if "th" in word:
+        return count_th(word.replace("th", "1", 1)) + 1
+    else:
+        return 0
+
+
+print(count_th("thisthisthis"))
