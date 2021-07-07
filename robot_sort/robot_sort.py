@@ -100,6 +100,16 @@ class SortingRobot:
         pass
 
 
+
+'''
+Plan Bubble Sort:
+
+1. Start at i and compare to the right if larger move i to the right
+
+2. Return to start and begin process again
+'''
+
+
 if __name__ == "__main__":
     # Test our your implementation from the command line
     # with `python robot_sort.py`
